@@ -20,7 +20,6 @@ router.post("/gdg", async (req: Request, res: Response) => {
     message: "success",
     data: content,
   });
-
   // res.send(data);
 });
 
